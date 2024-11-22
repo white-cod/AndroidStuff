@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="NVIDIA представила результати тестів відеокарт RTX 40 у S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvIntroduction0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="З наближенням виходу S.T.A.L.K.E.R. 2: Heart of Chornobyl, запланованим на 20 листопада, власники відеокарт GeForce RTX 40 зможуть повною мірою скористатися технологією DLSS 3, яка включає генерацію кадрів і суперроздільну здатність, значно підвищуючи продуктивність ігрового процесу"/>
+
+        <ImageView
+            android:id="@+id/ivFeaturedImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvImageCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="Тестування відеокарт RTX 40 у 4K"/>
+
+        <TextView
+            android:id="@+id/tvIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="На високих налаштуваннях та у 4K-роздільній здатності, DLSS 3 дозволяє відеокартам GeForce RTX 40 підвищити середній FPS у грі у 2,4 раза."/>
+
+        <TextView
+            android:id="@+id/tvIntroduction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Інші результати показали що GeForce RTX 4070 SUPER досягає 87 FPS, GeForce RTX 4070 Ti SUPER — 100 FPS, GeForce RTX 4080 SUPER — 112 FPS, а флагманська GeForce RTX 4090 перевищує 120 FPS."/>
+
+        <TextView
+            android:id="@+id/tvSection1Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Продуктивність у роздільних здатностях 2560x1440 та 1920x1080"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSection1Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:text="У роздільній здатності 2560x1440 DLSS 3 подвоює продуктивність, забезпечуючи стабільні 100 FPS та більше на більшості систем."/>
+
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="В роздільній здатності 1920x1080 всі відеокарти GeForce RTX 40 забезпечують понад 60 FPS, збільшуючи продуктивність у середньому на 1,9 раза на максимальних налаштуваннях."/>
+
+        <ImageView
+        android:id="@+id/ivFeaturedImage2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvImageCaption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="Тестування відеокарт RTX 40 у 2K"/>
+
+        <ImageView
+            android:id="@+id/ivFeaturedImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvImageCaption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="Тестування відеокарт RTX 40 у FullHD"/>
+
+
+    </LinearLayout>
+</ScrollView>

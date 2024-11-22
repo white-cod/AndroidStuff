@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="STALKER 2: які нові системні вимоги і чому в РФ переполох через майбутній реліз"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvIntroduction0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="До довгоочікуваного релізу постапокаліптичного шутера «S.T.A.L.K.E.R. 2: Серце Чорнобиля» ще кілька днів, а навколо нього розгорається черговий скандал. Цього разу гра спричинила справжній переполох у Росії."/>
+
+        <ImageView
+            android:id="@+id/ivFeaturedImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvImageCaption6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="У росіян не вийде пограти в STALKER 2 ні офіційно, ні в піратському релізі. Джерело: X.com/STALKER OFFICIAL"/>
+
+        <TextView
+            android:id="@+id/tvIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Як заявив заступник голови комітету Держдуми з інформаційної політики Антон Горєлкін, гру можуть офіційно заборонити в РФ через те, що за її створення відповідає українська студія GSC Game World. «Не виключаю, що, якщо після її виходу в ігровому контенті виявлять протиправну інформацію (екстремізм, виправдання тероризму, розпалювання міжнаціональної ворожнечі тощо), буде вжито найсуворіших заходів», - цитує його інтерв'ю пропагандистському виданню Daily Storm “Медуза”."/>
+
+        <TextView
+            android:id="@+id/tvIntroduction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Повідомляється, що в РФ збираються покладати відповідальність у такому разі на «тих, кого визнають причетними до поширення цієї інформації». Хто конкретно мається на увазі під цим формулюванням, не уточнюється - це можуть бути як дистриб'ютори і продавці, так і рядові гравці."/>
+
+        <TextView
+            android:id="@+id/tvIntroduction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="При цьому в коментарі тому ж Daily Storm адвокат Михайло Мушаїлов попередив, що в сучасних російських реаліях буде нескладно довести, що гравець був у курсі позиції GSC Game World, яка засуджує російську агресію і допомагає ЗСУ. За це, каже юрист, може загрожувати обвинувачення в державній зраді та тюремний термін."/>
+
+        <TextView
+            android:id="@+id/tvIntroduction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:text="Російські репакери, які публікують нелегальні версії відеоігор у вільному доступі, сприйняли це попередження всерйоз і вже почали відмовлятися від планів публікації S.T.A.L.K.E.R. 2. Так, у VK-спільноті репакера byXatab з'явилося повідомлення, що релізу від них чекати не варто."/>
+
+        <ImageView
+            android:id="@+id/ivFeaturedImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+
+
+        <TextView
+            android:id="@+id/tvSection1Title5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Тим часом у всьому світі «S.T.A.L.K.E.R. 2: Серце Чорнобиля» вийде на ПК і на консолях Xbox ексклюзивно."
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSection1Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:text="Що стосується персональних комп'ютерів, то в офіційному акаунті гри на платформі Х (колишній Twitter) з'явилися оновлені системні вимоги. Так, для встановлення S.T.A.L.K.E.R. 2 знадобиться 160 ГБ дискового простору і не менше 16 ГБ двоканальної оперативної пам'яті. Детальні вимоги можна дізнатися з інфографіки, опублікованої розробниками."/>
+
+        <ImageView
+            android:id="@+id/ivFeaturedImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+</ScrollView>

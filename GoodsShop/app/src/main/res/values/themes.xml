@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GoodsShop" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorOnSecondary">#000000</item>
+    </style>
+
+    <style name="Theme.GoodsShop.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryVariant">#1F1F1F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#BB86FC</item>
+        <item name="colorOnSecondary">#000000</item>
+    </style>
+</resources>
