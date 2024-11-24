@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
             val avatar = avatars[random.nextInt(avatars.size)]
             val firstName = firstNames[random.nextInt(firstNames.size)]
             val lastName = lastNames[random.nextInt(lastNames.size)]
-            val age = (14..99).random().toLong() // Random age between 14 and 99
+            val age = (14..99).random().toLong()
             val (country, cities) = countriesAndCities[random.nextInt(countriesAndCities.size)]
             val city = cities[random.nextInt(cities.size)]
 
